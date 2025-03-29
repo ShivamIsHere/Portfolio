@@ -14,7 +14,7 @@ const messageSchema= new mongoose.Schema({
         minLength:[2,"Message must contain at least 2 characters"],
     },
     createdAt:{
-        type:DataTransferItem,
+        type:Date,
         default:Date.now(),
     }
 });
